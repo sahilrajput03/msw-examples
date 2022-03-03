@@ -132,6 +132,8 @@ export const handlers = [
 
 4.  Creating `public/mockServiceWorker.js` file
 
+Source: https://mswjs.io/docs/getting-started/integrate/browser
+
 ```bash
 npx msw init public/ --save
 # It creates a file in the give directory i.e.,
