@@ -19,7 +19,7 @@ You need to configure three file:
 -   `src/index.js`
 -   `src/mocks/browser.js`
 -   `src/mocks/handlers.js`
--   `public/mockServiceWorker.js` (run ``
+-   `public/mockServiceWorker.js` (\*created with command automatically)
 
 1. File: `src/index.js`
 
