@@ -1,7 +1,7 @@
 # README ~Sahil
 
 -   Getting started: https://mswjs.io/docs/getting-started/install
--   ocs: https://mswjs.io/
+-   Docs: https://mswjs.io/
 -   Api docs: https://mswjs.io/docs/api
 
 ```
