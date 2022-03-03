@@ -1,10 +1,8 @@
 # README ~Sahil
 
-Getting started: https://mswjs.io/docs/getting-started/install
-
-Docs: https://mswjs.io/
-
-Api docs: https://mswjs.io/docs/api
+-   Getting started: https://mswjs.io/docs/getting-started/install
+-   ocs: https://mswjs.io/
+-   Api docs: https://mswjs.io/docs/api
 
 ```
 yarn
