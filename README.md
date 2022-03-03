@@ -2,7 +2,7 @@
 
 **Q. Where can i use these handlers that i make here ?**
 
-> Ans. node-backend, browser (real api call mocking), react-testing, jest testing.
+> Ans. browser (real api call mocking), node-backend, react-testing, jest testing.
 
 **_Documentation, Getting started and api docs are best in this case though._**
 
