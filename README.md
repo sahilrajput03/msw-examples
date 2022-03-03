@@ -12,7 +12,16 @@ npm start
 
 Original Readme: [Click here](README.md_ORIGINAL)
 
-Imp files:
+## Adding mock service worker to existing project:
+
+You need to configure three file:
+
+-   `src/index.js`
+-   `src/mocks/browser.js`
+-   `src/mocks/handlers.js`
+-   `public/mockServiceWorker.js` (run ``
+
+1. File: `src/index.js`
 
 ```js
 // FILE: src/index.js
@@ -29,6 +38,8 @@ if (process.env.NODE_ENV === 'development') {
 ReactDOM.render(<LoginForm />, document.getElementById('root'))
 ```
 
+2. File: `src/mocks/browser.js`
+
 ```js
 // FILE: src/mocks/browser.js
 import { setupWorker } from 'msw'
@@ -37,7 +48,9 @@ import { handlers } from './handlers'
 export const worker = setupWorker(...handlers)
 ```
 
-```
+3. File: `src/mocks/handlers.js`
+
+```js
 // FILE: src/mocks/handlers.js
 import { rest } from 'msw'
 
@@ -109,7 +122,7 @@ export const handlers = [
 ]
 ```
 
-## FYI: When you do
+4.  Creating `public/mockServiceWorker.js` file
 
 ```bash
 npx msw init public/ --save
@@ -117,6 +130,8 @@ npx msw init public/ --save
 # ./public/mockServiceWorker.js
 # THIS WILL ENABLE OUR MOCK SERVICE WORKER IN BROWSER.
 ```
+
+_Also, the command will add workerDirectory to your `package.json` as well, it is a recommended thing IDK exactly why._
 
 ```json
 {
