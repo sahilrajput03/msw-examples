@@ -9,6 +9,7 @@
 -   Getting started: https://mswjs.io/docs/getting-started/install
 -   Docs: https://mswjs.io/
 -   Api docs: https://mswjs.io/docs/api
+-   FYI: Response (api docs): https://mswjs.io/docs/api/response
 
 But for a video source: https://www.youtube.com/watch?v=v77fjkKQTH0&feature=youtu.be
 
