@@ -1,8 +1,15 @@
 # README ~Sahil
 
+> Where can i use these handlers that i make here ?
+> Ans. node-backend, browser (real api call mocking), react-testing, jest testing.
+
+**_Documentation, Getting started and api docs are best in this case though._**
+
 -   Getting started: https://mswjs.io/docs/getting-started/install
 -   Docs: https://mswjs.io/
 -   Api docs: https://mswjs.io/docs/api
+
+But for a video source: https://www.youtube.com/watch?v=v77fjkKQTH0&feature=youtu.be
 
 ```
 yarn
